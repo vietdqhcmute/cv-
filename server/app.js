@@ -5,6 +5,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const app = express();
 
+import routes = require("./routes.js");
+
 const connectionString = ""
 
 //mongoose.disconnect().then(
@@ -48,6 +50,8 @@ app.use(function(req, res, next) {
 
   next();
 });
+
+app.use('/api', routes);
 
 app.listen(3000, () => {
  console.log("Server running on port 3000");
