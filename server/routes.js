@@ -1,5 +1,5 @@
 import { userRoutes } from "routes/index";
 
-export default {
+export const routes = {
   userRoutes
 };

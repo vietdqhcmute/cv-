@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const app = express();
 
-import routes = require("./routes.js");
+// import routes from "./routes";
 
 const connectionString = ""
 
@@ -51,7 +51,10 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use('/api', routes);
+// app.use('/api', routes);
+app.get('/api', (req, res) => {
+  res.send("Hello world");
+});
 
 app.listen(3000, () => {
  console.log("Server running on port 3000");
