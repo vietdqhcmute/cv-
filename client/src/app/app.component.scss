@@ -1,0 +1,16 @@
+:host {
+}
+
+.cv {
+  display: flex;
+  flex-direction: row;
+  padding-top :2rem;
+}
+
+.left {
+  flex-grow: 5;
+}
+
+.right {
+  flex-grow: 5;
+}

@@ -1,0 +1,41 @@
+.container-grid {
+  padding: 5px;
+  background-color: #9e9e9e;
+  height: 100%;
+}
+.grid-page {
+
+}
+
+.paper {
+  width: 21cm;
+  height: 29.7cm;
+  background: white;
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  padding-top: 1rem;
+  
+}
+
+// body {
+//   background: rgb(204,204,204); 
+// }
+// .page {
+//   position: absolute;
+//   background: white;
+//   display: block;
+//   margin: 0 auto;
+//   margin-bottom: 0.5cm;
+//   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+// }
+// .page[size="A4"] {  
+//   width: 21cm;
+//   height: 29.7cm; 
+// }
+// @media print {
+//   body, page {
+//     margin: 0;
+//     box-shadow: 0;
+//   }
+// }
