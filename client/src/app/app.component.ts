@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'client';
+  constructor(){}
+  //firstName:String = "Phuong Dao";
+  
+  ngOnInit(): void {
+  }
+
+  // onLeftChange(firtNameOutFromLeft: String){
+  //   this.firstName = firtNameOutFromLeft;
+  //   console.log(firtNameOutFromLeft);
+  // }
 }

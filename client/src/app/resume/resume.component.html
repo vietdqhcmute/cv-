@@ -1,0 +1,8 @@
+<div class="cv">
+  <div class="left">
+    <app-left-application [userForLeft]="user" (emitChangeValue)="onLeftChange($event)"></app-left-application>
+  </div>
+  <div class="right">
+    <app-right-application [userForRight]="user"></app-right-application>
+  </div>
+</div>
