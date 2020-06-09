@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor(){}
-  firstName:String = "Phuong Dao";
+  //firstName:String = "Phuong Dao";
   
   ngOnInit(): void {
   }
 
-  onLeftChange(firtNameOutFromLeft: String){
-    this.firstName = firtNameOutFromLeft;
-    console.log(firtNameOutFromLeft);
-  }
+  // onLeftChange(firtNameOutFromLeft: String){
+  //   this.firstName = firtNameOutFromLeft;
+  //   console.log(firtNameOutFromLeft);
+  // }
 }
